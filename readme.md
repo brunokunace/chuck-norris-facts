@@ -1,3 +1,5 @@
+<p align="center"><img width="300" src="https://i.giphy.com/BIuuwHRNKs15C.gif" /></p>
+
 ## Chuck Norris Facts
 
 Simple website to the epic facts from <a href="https://api.chucknorris.io/">ChuckNorrisApi</a>, without any framework, css or javascript.
@@ -8,3 +10,10 @@ Simple website to the epic facts from <a href="https://api.chucknorris.io/">Chuc
    `yarn && yarn sass`
    or
    `npm install && npm run sass`
+
+### Contribution
+  Make anything with this =)
+
+### License
+
+[MIT](http://opensource.org/licenses/MIT)
