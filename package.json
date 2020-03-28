@@ -1,0 +1,14 @@
+{
+  "name": "ChuckNorrisJoke",
+  "version": "1.0.0",
+  "description": "A simple front to consuming chucknorris api",
+  "main": "index.js",
+  "author": "Bruno Henry Tutrut (Brun00)",
+  "license": "MIT",
+  "scripts": {
+    "sass": "node-sass --watch assets/sass -o assets/css"
+  },
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  }
+}

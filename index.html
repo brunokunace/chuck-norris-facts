@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Chuck Norris :: Joke's</title>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="./assets/css/reset.css" />
+  <link rel="stylesheet" href="./assets/css/main.css" />
+  <link href="https://fonts.googleapis.com/css?family=Kalam|Patua+One&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main class="cn__main">
+    <section class="cn__side">
+      <form class="cn__form" onsubmit="submitHandler(event)">
+        <div class="cn__form__avatar">
+          <div class="cn__form__avatar--little_chuck"></div>
+        </div>
+        <div class="cn__form__header-container">
+          <h2 class="cn__form__header-container--title">Chuck Norris</h2>
+          <p class="cn__form__header-container--subtitle">Type any word to know Chuck Norris facts</p>
+        </div>
+        <div class="cn__form__content-container">
+          <input type="text" id="input_fact" placeholder="Facts..." class="cn__form__content-container--input"/>
+          <button class="cn__form__content-container--button">Go!</button>
+        </div>
+        <span id="error_message" class="cn__form__error-message">type at least 3 letters</span>
+        <a href="https://pt.wikipedia.org/wiki/Chuck_Norris" target="_blank" class="cn__form__know-more">want to know more?</a>
+      </form>
+    </section>
+    <section class="cn__side">
+      <div class="cn__facts">
+        <div class="cn__facts__container">
+          <a class="prev" id="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" id="next" onclick="plusSlides(1)">&#10095;</a>
+          <div id="slider_container" class="cn__facts__container--content">
+            <span class="cn__facts__container--content-description">A Chuck Norris stare can literally burn holes through you.</span>
+            <span class="cn__facts__container--content-description">Chuck Norris watches the Watchmen.</span>
+            <span class="cn__facts__container--content-description">Chuck Norris is brimming with so much testosterone-fueled badassery, that your balls will twitch at the sight of him.</span>
+          </div>
+          <span id="slider_totals" class="cn__facts__container__slider_totals"></span>
+        </div>
+      </div>
+    </section>
+    <footer class="cn__footer">
+      <a href="#" class="cn__footer--links"><img src="./assets/images/github.png" /> Github Repository</a>
+      <a href="#" class="cn__footer--links"><img src="./assets/images/chuck-norris.png" /> Chuck Norris Api</a>
+    </footer>
+  </main>
+  <script type="text/javascript" src="./assets/js/slides.js"></script>
+  <script type="text/javascript" src="./assets/js/chuckNorrisApi.js"></script>
+</body>
+</html>
